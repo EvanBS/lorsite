@@ -404,10 +404,15 @@ footer {
 
 .polaroid img {
 	width: 100%;
-  height: auto;
+  	height: auto;
 }
 
 .text-container {
   	text-align: center;
   	padding: 10px 20px;
+}
+
+
+.all-text {
+	font-size: 15px;
 }
