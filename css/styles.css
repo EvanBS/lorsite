@@ -46,7 +46,7 @@ a:hover {
 .header-item {
 	display: inline-flex;
 	justify-content: center;
-	min-width: 300px;
+	min-width: 336px;
 	font-size: 25px;
 }
 
@@ -387,32 +387,48 @@ footer {
 
 
 .polaroid {
-	display: flex;
+	display: inline-flex !important;
+	margin: 5px !important;
+
+	box-shadow: 0 0 5px 1px #d2d2d2 !important;
+	background-color: white !important;
+
+	border:10px solid white !important; 
+	padding:2px !important;
+
+
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 
-  	max-width: 550px;
-	max-height: 400px;
+  	max-width: 400px;
+	max-height: 300px;
 
-  	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+
   	font-size: 20px;
-  	background-color: white;
-  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  	margin-bottom: 25px;
+  	margin-bottom: 30px;
 
 }
 
 .polaroid img {
+	
+
 	width: 100%;
   	height: auto;
 }
 
 .text-container {
   	text-align: center;
-  	padding: 10px 20px;
+  	
 }
 
 
 .all-text {
-	font-size: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	text-align: center;
+	font-size: 25px;
 }
