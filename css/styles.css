@@ -38,15 +38,20 @@ a:hover {
 }
 
 @media only screen and (max-width: 650px) {
-  .header-item:nth-child(even) {
+  .header-item:nth-child(2) {
 	display: none;
   }
+
+  .header-item:nth-child(5) {
+	display: none;
+  }
+
 }
 
 .header-item {
 	display: inline-flex;
 	justify-content: center;
-	min-width: 336px;
+	min-width: 325px;
 	font-size: 25px;
 }
 
@@ -269,7 +274,7 @@ li {
 	margin: 100px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1020px) {
   .address {
   	margin-left: 20px;
   	margin-right: 20px;
@@ -280,6 +285,10 @@ li {
   }
 
   .it2 {
+  	font-size: 15px;
+  }
+
+  .header-item {
   	font-size: 15px;
   }
 }
@@ -435,8 +444,6 @@ footer {
 }
 
 .polaroid img {
-	
-
 	width: 100%;
   	height: auto;
 }
@@ -448,7 +455,6 @@ footer {
 
 
 .all-text {
-	margin-top: 50px;
 	margin-bottom: 50px;
 
 	text-align: center;
