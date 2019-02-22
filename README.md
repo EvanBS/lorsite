@@ -1,1 +1,1 @@
-# https://lorsiteheroku.herokuapp.com/index.html
+# http://www.lorclinic.com.ua/
